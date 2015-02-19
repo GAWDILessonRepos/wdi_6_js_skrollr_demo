@@ -1,27 +1,26 @@
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
-# Javascript Assignment Name
+# Parallax Scrolling Demo with Skrollr 
+
+[Skrollr.js](https://github.com/Prinzhorn/skrollr)
 
 ## Objectives
 
 By the end of this, students should be able to:
 
-- Objective 1
-- Objective 2
-- Objective 3
+- run a `node` server with the `grunt cli`
+- initialize a skrollr singleton
 
 ## Instructions
 
-Include explict step-by-step instructions about the goals of the assignment, and how to run the code.
+- Fork, clone
+- run `npm install`
+- run `bower install`
+- run `grunt serve`
 
-Make sure to wrap section of code in appropriate markdown like `ls -al`, and denote the language as below for longer sections:
 
 ```javascript
-function(){
-  var x = 2
-  var y = 3
-  return x + y
-};
+
 
 ```
 

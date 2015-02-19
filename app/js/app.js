@@ -9,7 +9,7 @@ var trace = function(){
 var App = App || {};
 
 App.initializeSkrollr = function(){
-  
+
 };
 
 $(document).ready(function(){

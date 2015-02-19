@@ -18,24 +18,15 @@ By the end of this, students should be able to:
 - run `bower install`
 - run `grunt serve`
 
-
 ```javascript
-
-
+/* Skrollr is initialized as simply as this: */
+var s = skrollr.init();
 ```
 
-## Bonus (Optional Section)
-
-If you're looking for extra challenge or practice once you've completed the above, try to...
-
-## Notes
-
-Gotcha's and extra information
-
-## Additional Resources
-
-List additional related resources such as videos, blog posts and official documentation.
-
-- Item 1
-- Item 2
-- Item 3
+```javascript
+/* but you can also pass in options, like so: */
+skrollr.init({
+  smoothScrolling: false,
+  mobileDeceleration: 0.004
+});
+```
